@@ -1,0 +1,128 @@
+.reklamapage{
+    width: 300px;
+    height: auto;
+    background-color: #F7F7F7;
+    padding: 0 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    right: 6.5%;
+    top: 20%;
+    border-radius: 5px;
+}
+.r-h3{
+    color:#505c66 ;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 50px;
+    margin: 0;
+}
+/* ////////////////////////////// */
+/* hrline */
+/* ////////////////////////////// */
+
+.hrline{ 
+
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* ////////////////////////////// */
+/* card in */
+/* ////////////////////////////// */
+
+.r-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.recom-div{
+    display: flex;
+    align-items: center;
+    color: #548eaa;
+}
+.recom-divone{
+    display: flex;
+    align-items: center;
+    color:  #548eaa;
+    margin-right: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+.recom-p1{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+    color: #444;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    white-space: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    word-break: break-word;
+    margin-bottom:10px ;
+
+}
+.recom-p1:hover{
+    color: #4d7284;
+}
+.recom-p1:active{
+    color: #5f95af;
+}
+
+.recom-li-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #548eaa;
+    margin: 0;
+    padding: 0;
+    width: 52px;
+    flex: 1 0 auto;
+    max-width: 100%;
+    color: #82a3b1;
+    font-weight: 700;
+    font-size: 13px;
+}
+.recom-li-link:hover{
+    color:#426a7e ;
+}
+
+
+/* buttom link */
+.recom-link1{
+    color: #4d7284;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+    word-break: break-word;
+}
+.recom-link1:hover{
+    color: #64a8ca;
+}
+/* ///////////////////////// */
+/* Mega Past */
+/* ///////////////////////// */
+.recom-mega{
+    font-size: 12px;
+    line-height: 16px;
+    border: 1px solid #b0b0e2;
+    color: #6667a2;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 8px;
+}

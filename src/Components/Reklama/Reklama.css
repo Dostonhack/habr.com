@@ -1,0 +1,62 @@
+.reklamapage{
+    width: 300px;
+    height: auto;
+    background-color: #F7F7F7;
+    padding: 0 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    right: 6.5%;
+    top: 20%;
+    border-radius: 5px;
+}
+/* ////////////////////////////// */
+/* hrline */
+/* ////////////////////////////// */
+
+.hrline{ 
+    display:grid ;
+}
+
+
+/* ////////////////////////////// */
+/* card in */
+/* ////////////////////////////// */
+
+.r-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.r-ul-li{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin: 15px 0;
+}
+
+.r-ul-li-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.r-ul-li-d-h3{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+.r-ul-li-d-img{
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    border-radius:3px;
+    font-weight: 500;
+}
+/* buttom link */
+.r-ul-link{
+    color: #333333;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,169 @@
+/* /////////////////////////// */
+/* header top  */
+/* /////////////////////////// */
+.headertop{
+    background-color:#303B44;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+.h-t-left{
+   position: absolute;
+   left: 7%;
+}
+
+.h-t-l-logo{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1px 6px;
+    margin: 6px 0;
+    position: relative;
+}
+.h-t-l-line{
+    position: absolute;
+    background-color: #626A71;
+    top: 25%;
+    right: 0;
+    height: 25px;
+    width: 1px;
+}
+
+.FaDown{
+    color: #FFFFFF;
+    top: 30%;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 5px;
+}
+.h-t-button1{
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    width: 145px;
+    left: 150%;
+    top: 20%;
+    font-size: 13px;
+    border: 1px solid #626A71;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+.h-t-button1:hover{
+    border: 1px solid #e7e8e9;
+
+}
+
+
+
+
+/* /////////////////////////// */
+/* Header Top Right */
+/* /////////////////////////// */
+
+.h-t-right{
+    position:absolute;
+    right: 7%;
+    color: #A2D0EB;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+
+/* /////////////////////////// */
+/* header  page */
+/* /////////////////////////// */
+
+
+
+
+.headerone{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D5DDDF;
+    position: relative;
+}
+.headerone ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    left: 4%;
+    top: 6%;
+    align-items: center;
+}
+.headerone ul li{
+    padding: 0 10px;
+    font-size: 12px;
+}
+.h-link{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #909090;
+}
+.h-link:hover{
+    color: #5096B1;
+}
+
+
+/* /////////////////////////// */
+/* Headerone Right */
+/* /////////////////////////// */
+.header-right{
+    position: absolute;
+    right: 7%;
+    width: 20%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search{
+    color: #909090;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.language{
+    font-size: 23px;
+    color: #909090;
+    font-weight: 500;
+
+
+}
+.language:hover{
+    color: #5096B1;
+}
+.search:hover{
+    color: #5096B1;
+}
+.signin{
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid #909090 ;
+    padding: 7px 11px;
+    border-radius:5px;
+}
+.signup{
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid #909090;
+    padding: 8px 10px;
+    color: white;
+    border-radius:5px;
+    background-color: #65A3BE;
+
+
+
+}
+.signup:hover{
+    background-color: #31a1e2 ;
+}
