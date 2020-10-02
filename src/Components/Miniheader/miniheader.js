@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
 import './miniheader.css'
-import { Route,Link,Switch } from 'react-router-dom'
+import { Route,Link } from 'react-router-dom'
+
+
 
 export default class allstreams extends Component {
+    
+
     render() {
 
         return (
@@ -33,7 +37,19 @@ export default class allstreams extends Component {
                         <li><Link className='tabs-level-links'>Год</Link></li>
                     
                     </ul>
+                    
                 </div>
+                {/* DropDown Mobile vertion */}
+                <div className='dropdown'>
+                        <button className='dropbtn'>Все подряд <i className="arrow down"></i></button>
+                        <div className='dropdown-content'>
+                            <Link className='dropdown-link'>Сутки</Link>
+                            <Link className='dropdown-link'>Неделя</Link>
+                            <Link className='dropdown-link'>Месяц</Link>
+                            <Link className='dropdown-link'>Год</Link>
+
+                        </div>
+                    </div>
                 
                 </Route>
 

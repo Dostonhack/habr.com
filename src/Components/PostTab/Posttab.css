@@ -1,3 +1,167 @@
-.csssx{
-    background-color: red;
+/* //////////////////////// */
+/*Center Page*/
+/* //////////////////////// */
+.post-center{
+    width: 58%;
+    position: absolute;
+    top: 37%;
+    left: 7%;
 }
+.post-ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.post-ul-li{
+    padding-bottom: 20px;
+}
+.post-header{
+    align-items: center;
+    display: flex;
+}
+
+.post-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.post-link-logo{
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+}
+.post-link-name{
+    color: #548eaa;
+    padding-left: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.post-link-name:hover{
+    color: #3d6275;
+}
+.post-header-time{
+    color: #5f5f5f;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 8px;
+}
+/* //////////////////////// */
+/* Title h2 */
+/* //////////////////////// */
+.post-title{
+    margin: 0;
+    margin-bottom: 9px;
+    word-break: break-word;
+}
+.post-title-link{
+    font-size: 28px;
+    line-height: 36.4px;
+    text-decoration: none;
+    color: #333;
+}
+.post-title-link:hover{
+    color: #548eaa;
+}
+
+
+/* //////////////////////// */
+/* post Hubs ### */
+/* //////////////////////// */
+.post-habs{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.post-link-hubs{
+    text-decoration: none;
+    margin: 0 .5em 0 0;
+    color: #5e6973;
+    font-size: 13px;
+}
+.post-link-hubs:hover{
+    color: #548eaa;
+}
+
+/* //////////////////////// */
+/* POST BODY */
+/* //////////////////////// */
+.post-body{
+    margin-bottom: 24px;
+    padding-top: 20px;
+}
+.body-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.body-link{
+    margin-top: 17px;
+    padding: 8px 13px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #75aeca;
+    background-color: transparent;
+    color: #548eaa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.body-link:hover{
+    color: white;
+    background-color: #75aeca;
+}
+
+
+
+/* //////////////////////// */
+/* Fooater ### */
+/* //////////////////////// */
+.post-footer{
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #e5e9eb;
+    height: 40px;
+    border-radius: 4px;
+}
+.post-footer-item{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #759caf;
+    align-items: center;
+
+}
+
+.post-footer-link1:hover{
+    cursor: no-drop;
+    color: #03080a;
+}
+
+.post-footer-link2:hover{
+    color: #01080c;    
+}
+
+
+
+
+
+/* //////////////////////// */
+/* post Hubs ### */
+/* //////////////////////// */
+
+
+/* //////////////////////// */
+/* post Hubs ### */
+/* //////////////////////// */

@@ -9,11 +9,11 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-
+    
 }
 .h-t-left{
-   position: absolute;
-   left: 7%;
+    position: absolute;
+    left: 7%;
 }
 
 .h-t-l-logo{
@@ -58,13 +58,35 @@
 
 }
 
+/* ////////////////////////////// */
+/* OPEN SIDENAV */
+/* ////////////////////////////// */
+
+.header-dropdown{
+    display: none;
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+}
+.header-dropdown-item{
+    width: 23px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    border-radius: 7px;
+}
+
 
 
 
 /* /////////////////////////// */
 /* Header Top Right */
 /* /////////////////////////// */
-
+.header-top-right{
+    display: flex;
+    position: absolute;
+    right: 10%;
+}
 .h-t-right{
     position:absolute;
     right: 7%;
@@ -73,8 +95,28 @@
     font-size: 13px;
 }
 
-
-
+.top-search{
+    color: #909090;
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+}
+.top-signinmob{
+    display:none;
+    color:  #909090;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    width: 200px;
+    background-size: cover;
+    cursor: pointer;
+    height: 24px;
+    margin-left: 16px;
+    outline: 0;
+    position: relative;
+    width: 24px;
+    
+}
 /* /////////////////////////// */
 /* header  page */
 /* /////////////////////////// */
@@ -89,6 +131,7 @@
     align-items: center;
     border-bottom: 1px solid #D5DDDF;
     position: relative;
+    background-color: #fff;
 }
 .headerone ul{
     position: absolute;
@@ -166,4 +209,61 @@
 }
 .signup:hover{
     background-color: #31a1e2 ;
+}
+
+.signinm{
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+.signinmob{
+    display:none;
+    color:  #909090;
+    text-decoration: none;
+    position: absolute;
+    left: 35%;
+    font-size: 20px;
+}
+.signinmob:hover{
+    color: #5096B1;
+}
+/* ///////////////////////////// */
+/* MOBILE VERSION */
+/* ///////////////////////////// */
+
+
+/* Mobile*/
+@media only screen and (max-width: 1024px) {
+    .h-t-button1{display: none;}
+    .headerone{display: none;}
+    .FaDown{display: none;}
+    .h-t-l-line{display: none;}
+    .h-t-right{display: none;}
+    .signinmob{display: inline-table;}
+    .top-search{display: block;}
+    .top-signinmob{display: block;}
+
+    .header-dropdown{
+        display: inline;
+        left: -50px;
+    
+    }
+
+    .h-t-l-logo{
+        left: 50%;
+    }
+}
+
+/* Table */
+@media only screen and (max-width: 1200px) {
+    .h-t-button1{display: none;}
+    .signinm{display: inline-table;}
+    .language{display: none;}
+    .signin{display: none;}
+    .signup{display: none;}
+    .signinmob{display: inline-table;}
+    .search{
+        position: absolute;
+        left: 30px;
+    }
 }

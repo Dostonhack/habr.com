@@ -9,6 +9,7 @@ import Header from './Components/header/header.js'
 // import Bestcompany from './Components/Best Companies/bestcompany';
 import Miniheader from './Components/Miniheader/miniheader'
 import Posttab from './Components/PostTab/Posttab'
+import News from './Components/News/news'
 function App() {
   return (
     <div>
@@ -20,7 +21,6 @@ function App() {
     {/* <Mostread/> */}
     {/* <Attention/> */}
     <Miniheader/><br/>
-    <Posttab/>
     </div> 
 
   );
