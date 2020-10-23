@@ -6,7 +6,8 @@
     padding-bottom: 25px;
     position: absolute;
     left:6.5%;
-    top: 25%;
+    top: 40%;
+    display: block;
     border-radius: 5px;
 }
 .most-h3{

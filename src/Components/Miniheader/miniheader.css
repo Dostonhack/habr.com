@@ -186,7 +186,22 @@
     animation-timing-function: ease;
 }
 
+/* //////////////////////// */
 /* Mobile*/
+/* //////////////////////// */
+@media only screen and (max-width:414px){
+    .All-Page{
+        width: 100%;
+        margin-top: 0;
+        
+    }
+    .allpage-header{
+        font-size: 15px;
+    }
+    .tabs-link{
+        font-size: 2px;
+    }
+}
 @media only screen and (max-width: 1024px) {
     .All-Page{
         width: 80%;
