@@ -1,6 +1,6 @@
 .footer-page{
     position: absolute;
-    bottom: 0;
+    bottom: -2200px;
     height: 310px;
     width: 100%;
     background-color: #F9F9F9;

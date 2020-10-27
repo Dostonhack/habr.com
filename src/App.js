@@ -16,12 +16,12 @@ function App() {
     <Header/>
     <Miniheader/>
     <Posttab/>
-    {/* <Mostread/> */}
-    {/* <Footer/> */}
-    {/* <Reklama/> */}
-    {/* <Bestcompany/> */}
-    {/* <Recommend/> */}
-    {/* <Attention/> */}
+    <Mostread/>
+    <Footer/>
+    <Reklama/>
+    <Bestcompany/>
+    <Recommend/>
+    <Attention/>
     </div> 
 
   );

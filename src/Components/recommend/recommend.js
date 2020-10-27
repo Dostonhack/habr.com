@@ -10,7 +10,7 @@ import {
 export default class recommend extends Component {
     render() {
         return (
-            <div  className='reklamapage'>
+            <div  className='recommend'>
             <h3 className='r-h3'>РЕКОМЕНДУЕМ</h3>
             {/* Line top */}
             <Router>

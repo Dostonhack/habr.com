@@ -22,7 +22,7 @@ import log10 from './img/yandeks.png'
 class Reklama extends Component {
     render() {
         return (
-            <div  className='reklamapage'>
+            <div  className='bestcompany'>
                 <h3 style={{color:'#505c66',fontWeight:'700',fontSize:'13px'}}>ЛУЧШИЕ КОМПАНИИ</h3>
                 <hr className='hrline'/>
                 {/* Line top */}

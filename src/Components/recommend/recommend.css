@@ -1,12 +1,12 @@
-.reklamapage{
+.recommend{
     width: 300px;
     height: auto;
     background-color: #F7F7F7;
-    padding: 0 25px;
+    padding: 0 25px; 
     padding-bottom: 25px;
     position: absolute;
-    right: 6.5%;
-    top: 20%;
+    right: 4%;
+    bottom: -1080px;
     border-radius: 5px;
 }
 .r-h3{
